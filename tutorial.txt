@@ -1,0 +1,7 @@
+npm init -y
+npm install express mysql2 typescript ts-node @types/node @types/express
+npx tsc --init
+
+tsconfig ---
+  linha 30 = "rootDir": "./src",  
+  linha 62 = "outDir": "./dist",
